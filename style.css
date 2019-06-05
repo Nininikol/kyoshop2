@@ -1,0 +1,83 @@
+.top{
+	height: 100px;
+	background-color: yellow;
+	display: flex;
+	border-radius: 10px;
+}
+.logo{
+	height: 100px;
+	width: 130px;
+}
+.link {
+	margin-left: auto;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.selflink {
+	text-decoration: none;
+	margin-right: 10px;
+}
+.banner{
+	height: 500px;
+	width: 1500px;
+	text-align: center;
+	color: #808080;
+	display: flex;
+}
+.imgbanner{
+	height: 500px;
+	width: 1000px;
+	background-image: url("banner.jpg");
+	background-size: 100%100%;
+}
+.textbanner{
+	background-color: #FAFAD2;
+}
+.content{
+	height: 1600px;
+	background-color: #FFDAB9;
+}
+.parent{
+	height: 500px;
+	width: 1225px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	display: flex;
+	padding-left: 75px;
+}
+.child{
+	height: 500px;
+	width: 500px;
+	background-size: 100%100%;
+	margin-left: 50px;
+	transition: 0.8s;
+}
+.child:hover{
+	background-color: yellow;
+	transform: scale(1.05);
+	border-radius: 500px;
+	opacity: 0.6;
+}
+.background1{
+	background-image: url("merch.jpg");
+	background-size: 100%100%;
+}
+.background2{
+	background-image: url("cute.jpg");
+	background-size: 100%100%;
+}
+.background3{
+	background-image: url("cat.jpg");
+	background-size: 100%100%;
+}
+h1{
+	font-family: Garamond;
+}
+.textcontent{
+	padding-top: 200px;
+	height: 300px;
+	width: 500px;
+	padding-left: 20px;
+}
+
